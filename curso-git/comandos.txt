@@ -1,0 +1,11 @@
+mkdir curso-git
+cd curso-git
+git init
+git config user.name "Samuel"
+git config user.email "sam.alves.silva19@gmail.com"
+echo Samuel Alves da Silva - Matrícula 20231158060127 > dados.txt
+git add dados.txt
+git commit -m "Atividade 1"
+git remote add origin https://github.com/32Sam/curso-git-ead-ifrn.git
+git push -u origin main
+notepad comandos.txt
